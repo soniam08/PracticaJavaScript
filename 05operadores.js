@@ -40,5 +40,10 @@ resultado = false
 
 //OPERADORES TERNARIOS
 
-let encontrado =  true;
+let encontrado =  true;   //; muy necesario antes de un ternario
 (encontrado) ? dibujarCapa('Sí, lo he encontrado') : dibujarCapa('No, no lo he encontrado')
+
+vivo = true
+edad = 43;
+
+(vivo && edad >= 40) ? dibujarCapa('Eres un pureta') : dibujarCapa('todavía escapas')
